@@ -24,6 +24,7 @@ HTTP status codes are as follows:
  * 200 - This is for a successful operation
  * 400 - This indicates a bad request where either no json content was received or no valid coupons were received
 
+
     /api/coupons/fetch
 
 This returns a slice of coupons, either all of them by default or a filtered list if you supply GET parameters. Currently supported are:
