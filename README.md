@@ -32,3 +32,9 @@ This returns a slice of coupons, either all of them by default or a filtered lis
 
  * name
  * brand
+
+## Testing
+
+This project includes a standard go test file with unit tests for each endpoint. To run this, use the following command:
+
+    go test
